@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Sample-Site13</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+<div id="header">
+    <h1>Sample-Site</h1>
+</div>
+
+<ul id="nav">
+    <li><a href="#intro" title="Next Section"><img src="img/next.png" alt="Link" /></a></li>
+    <li><a href="#second" title="Next Section"><img src="img/next.png" alt="Link" /></a></li>
+    <li><a href="#third" title="Next Section"><img src="img/next.png" alt="Link" /></a></li>
+    <li><a href="#fourth" title="Next Section"><img src="img/next.png" alt="Link" /></a></li>
+    <li><a href="#fifth" title="Next Section"><img src="img/next.png" alt="Link" /></a></li>
+</ul>
+
+<div id="intro">
+	<div class="story">
+    	<div class="float-left">
+		<h2>Welcome to My Site!</h2>
+        <p>It's nice to meet you.</p>
+        </div>
+    </div>
+</div>
+
+<div id="second">
+	<div class="story">
+    	<div class="float-left">
+		<h2>About</h2>
+        <p>
+            このサイトはaiが作成したHTMLのテンプレートです。<br>
+            使用する場合、文面・画像を差し替えて、お使いください。<br>
+            ダウンロードは<a id="download-link" href="https://github.com/airis0/site-template13">こちら</a>です。
+        </p>
+        </div>
+    </div>
+</div>
+
+<div id="third">
+	<div class="story">
+    	<div class="float-left">
+		<h2>Contents1</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br>
+            Aenean commodo ligula eget dolor.<br>
+            Aenean massa.<br>
+            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<br>
+            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.<br>
+            Nulla consequat massa quis enim.<br>
+            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.<br>
+            In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.<br>
+            Nullam dictum felis eu pede mollis pretium.<br>
+            Integer tincidunt.
+        </p>
+        </div>
+    </div>
+</div>
+
+<div id="fourth">
+	<div class="story">
+    	<div class="float-left">
+		<h2>Contents2</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.<br>
+            Aenean commodo ligula eget dolor.<br>
+            Aenean massa.<br>
+            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<br>
+            Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.<br>
+            Nulla consequat massa quis enim.<br>
+            Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.<br>
+            In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.<br>
+            Nullam dictum felis eu pede mollis pretium.<br>
+            Integer tincidunt.
+        </p>
+        </div>
+    </div>
+</div>
+
+<div id="fifth">
+	<div class="story">
+        <h2>Contact</h2>
+        <form method="post" action="/">
+            <label>お名前<br>
+                <input type="text" name="name" required>
+            </label>
+            <br><br>
+            <label>電話番号<br>
+                <input type="tel" name="phone-number" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" placeholder="090-1234-5678" required>
+            </label>
+            <br><br>
+            <label>メールアドレス<br>
+                <input type="email" name="mail" placeholder="mail123address@example.com" maxlength="50" required>
+            </label>
+            <br><br>
+            <label>件名<br>
+                <input type="text" name="subject" maxlength="200" required>
+            </label>
+            <br><br>
+            <label>内容<br>
+                <textarea name="Content" id="Content" cols="30" rows="10" required></textarea>
+            </label>        
+            <br><br>
+            <button type="submit">送信する</button>
+        </form>
+        <br>
+        <p>Copyright&copy; 2021 Sample-Site. All Rights Reserved.</p>
+    </div>
+</div>
+
+<script src="./js/jquery1.6.4.min.js"></script>
+<script src="./js/jquery.parallax-1.1.3.js"></script>
+<script src="./js/jquery.localscroll-1.2.7-min.js"></script>
+<script src="./js/jquery.scrollTo-1.4.2-min.js"></script>
+</body>
+</html>
